@@ -17,7 +17,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen flex flex-col items-center justify-center px-6 py-20"
+      className="min-h-screen flex flex-col items-center justify-center px-6 py-20 max-w-6xl mx-auto"
     >
       <h2 className="text-4xl font-bold mb-12">
         Skills

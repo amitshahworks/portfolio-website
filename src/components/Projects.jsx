@@ -5,7 +5,7 @@ function Projects() {
     description:
       "An AI-powered platform that simulates technical and HR interviews and provides feedback.",
     tech: "React, Node.js, MongoDB, OpenAI",
-    github: "#",
+    github: "https://github.com/your-repo",
     demo: "#",
   },
   {
@@ -13,7 +13,7 @@ function Projects() {
     description:
       "AI assistant for task management, reminders, and productivity enhancement.",
     tech: "React, Firebase, OpenAI",
-    github: "#",
+    github: "https://github.com/your-repo",
     demo: "#",
   },
   {
@@ -21,7 +21,7 @@ function Projects() {
     description:
       "A document management platform with search, categorization, and user-friendly navigation.",
     tech: "HTML, CSS, JavaScript",
-    github: "#",
+    github: "https://github.com/your-repo",
     demo: "#",
   },
   {
@@ -29,7 +29,7 @@ function Projects() {
     description:
       "A web-based travel booking platform with user and admin functionalities.",
     tech: "Java, MySQL",
-    github: "#",
+    github: "https://github.com/your-repo",
     demo: "#",
   },
 ];
@@ -37,7 +37,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="min-h-screen px-6 py-20"
+      className="min-h-screen px-6 py-20 max-w-6xl mx-auto"
     >
       <h2 className="text-4xl font-bold text-center mb-12">
         Projects
@@ -66,9 +66,11 @@ function Projects() {
               {project.description}
             </p>
 
-            <p className="font-medium mb-4">
-              Tech Stack: {project.tech}
-            </p>
+            <div className="mb-4">
+                <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                    {project.tech}
+                </span>
+            </div>
 
             <div className="flex gap-4">
            <a

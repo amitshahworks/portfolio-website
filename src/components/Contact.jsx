@@ -2,7 +2,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col justify-center items-center px-6 py-20"
+      className="min-h-screen flex flex-col justify-center items-center px-6 py-20 max-w-6xl mx-auto"
     >
       <h2 className="text-4xl font-bold mb-8">
         Contact Me

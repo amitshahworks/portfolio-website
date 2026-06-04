@@ -2,7 +2,7 @@ import profile from "../assets/profile.jpg";
 
 function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-white to-blue-50">
       <img
         src={profile}
         alt="Amit Shah"
@@ -26,7 +26,7 @@ function Hero() {
   <a
     href="/resume.pdf"
     download
-    className="bg-black text-white px-6 py-3 rounded-lg"
+    className="bg-black text-white px-6 py-3 rounded-lg hover:scale-105 transition"
   >
     Resume
   </a>
@@ -35,7 +35,7 @@ function Hero() {
     href="https://github.com/amitshahworks"
     target="_blank"
     rel="noopener noreferrer"
-    className="border px-6 py-3 rounded-lg"
+    className="border px-6 py-3 rounded-lg hover:bg-gray-100 transition"
   >
     GitHub
   </a>
@@ -44,7 +44,7 @@ function Hero() {
     href="https://linkedin.com/in/amitshahstack"
     target="_blank"
     rel="noopener noreferrer"
-    className="border px-6 py-3 rounded-lg"
+    className="border px-6 py-3 rounded-lg hover:bg-gray-100 transition"
   >
     LinkedIn
   </a>

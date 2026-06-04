@@ -23,7 +23,7 @@ function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen px-6 py-20"
+      className="min-h-screen px-6 py-20 max-w-6xl mx-auto"
     >
       <h2 className="text-4xl font-bold text-center mb-12">
         Experience & Certifications
