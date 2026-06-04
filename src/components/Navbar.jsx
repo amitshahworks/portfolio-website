@@ -1,6 +1,19 @@
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-8 py-5 shadow-md">
+    <nav
+    className="
+    sticky
+    top-0
+    bg-white
+    z-50
+    shadow-md
+    flex
+    justify-between
+    items-center
+    px-8
+    py-5
+"
+>
       <h1 className="text-2xl font-bold">Amit Shah</h1>
 
       <ul className="hidden md:flex gap-8 font-medium">
