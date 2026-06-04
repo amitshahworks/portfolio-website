@@ -1,30 +1,38 @@
 function Projects() {
   const projects = [
-    {
-      title: "AI Interview Trainer",
-      description:
-        "An AI-powered platform that simulates technical and HR interviews and provides feedback.",
-      tech: "React, Node.js, MongoDB, OpenAI",
-    },
-    {
-      title: "Smart Productivity AI Assistant",
-      description:
-        "AI assistant for task management, reminders, and productivity enhancement.",
-      tech: "React, Firebase, OpenAI",
-    },
-    {
-      title: "DocumentEase",
-      description:
-        "A document management platform with search, categorization, and user-friendly navigation.",
-      tech: "HTML, CSS, JavaScript",
-    },
-    {
-      title: "Travel Booking System",
-      description:
-        "A web-based travel booking platform with user and admin functionalities.",
-      tech: "Java, MySQL",
-    },
-  ];
+  {
+    title: "AI Interview Trainer",
+    description:
+      "An AI-powered platform that simulates technical and HR interviews and provides feedback.",
+    tech: "React, Node.js, MongoDB, OpenAI",
+    github: "#",
+    demo: "#",
+  },
+  {
+    title: "Smart Productivity AI Assistant",
+    description:
+      "AI assistant for task management, reminders, and productivity enhancement.",
+    tech: "React, Firebase, OpenAI",
+    github: "#",
+    demo: "#",
+  },
+  {
+    title: "DocumentEase",
+    description:
+      "A document management platform with search, categorization, and user-friendly navigation.",
+    tech: "HTML, CSS, JavaScript",
+    github: "#",
+    demo: "#",
+  },
+  {
+    title: "Travel Booking System",
+    description:
+      "A web-based travel booking platform with user and admin functionalities.",
+    tech: "Java, MySQL",
+    github: "#",
+    demo: "#",
+  },
+];
 
   return (
     <section
@@ -63,18 +71,22 @@ function Projects() {
             </p>
 
             <div className="flex gap-4">
-            <a
-                href="#"
-                className="bg-black text-white px-4 py-2 rounded-lg"
+           <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black text-white px-4 py-2 rounded-lg hover:opacity-80 transition "
             >
-                GitHub
+            GitHub
             </a>
 
             <a
-                href="#"
-                className="border px-4 py-2 rounded-lg"
+            href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border px-4 py-2 rounded-lg hover:bg-gray-100 transition"
             >
-                Live Demo
+            Live Demo
             </a>
             </div>
           </div>

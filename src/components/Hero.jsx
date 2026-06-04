@@ -6,13 +6,13 @@ function Hero() {
       <img
         src={profile}
         alt="Amit Shah"
-        className="w-32 h-32 rounded-full object-cover mb-6"
+        className="w-40 h-40 rounded-full object-cover shadow-lg mb-6"
       />
       <h2 className="text-5xl font-bold mb-4">
         Hi, I'm Amit Shah
       </h2>
 
-      <p className="text-xl text-gray-600 mb-6">
+      <p className="text-xl text-blue-600 font-medium mb-6">
         Full Stack Developer & AI Enthusiast
       </p>
 
