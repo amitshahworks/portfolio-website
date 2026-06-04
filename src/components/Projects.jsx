@@ -39,7 +39,16 @@ function Projects() {
         {projects.map((project) => (
           <div
             key={project.title}
-            className="border rounded-xl p-6 shadow-md hover:shadow-xl transition"
+            className="
+                border
+                rounded-xl
+                p-6
+                shadow-md
+                hover:shadow-2xl
+                hover:-translate-y-2
+                transition
+                duration-300
+                "
           >
             <h3 className="text-2xl font-semibold mb-3">
               {project.title}
@@ -54,13 +63,19 @@ function Projects() {
             </p>
 
             <div className="flex gap-4">
-              <button className="bg-black text-white px-4 py-2 rounded-lg">
+            <a
+                href="#"
+                className="bg-black text-white px-4 py-2 rounded-lg"
+            >
                 GitHub
-              </button>
+            </a>
 
-              <button className="border px-4 py-2 rounded-lg">
+            <a
+                href="#"
+                className="border px-4 py-2 rounded-lg"
+            >
                 Live Demo
-              </button>
+            </a>
             </div>
           </div>
         ))}
