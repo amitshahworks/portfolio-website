@@ -1,16 +1,13 @@
-function Navbar() {
-  return (
-    <nav className="flex justify-between items-center px-8 py-5 shadow-md">
-      <h1 className="text-2xl font-bold">Amit Shah</h1>
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
-      <ul className="hidden md:flex gap-8 font-medium">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
   );
 }
 
-export default Navbar;
+export default App;
