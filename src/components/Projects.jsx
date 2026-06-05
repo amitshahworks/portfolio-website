@@ -5,7 +5,7 @@ function Projects() {
     description:
       "An AI-powered platform that simulates technical and HR interviews and provides feedback.",
     tech: "React, Node.js, MongoDB, OpenAI",
-    github: "https://github.com/your-repo",
+    github: "https://github.com/mitshahworks/AI-Interview-Copilot-2.0",
     demo: "#",
   },
   {
@@ -13,7 +13,7 @@ function Projects() {
     description:
       "AI assistant for task management, reminders, and productivity enhancement.",
     tech: "React, Firebase, OpenAI",
-    github: "https://github.com/your-repo",
+    github: "https://github.com/",
     demo: "#",
   },
   {
@@ -21,7 +21,7 @@ function Projects() {
     description:
       "A document management platform with search, categorization, and user-friendly navigation.",
     tech: "HTML, CSS, JavaScript",
-    github: "https://github.com/your-repo",
+    github: "https://github.com/",
     demo: "#",
   },
   {
@@ -29,7 +29,7 @@ function Projects() {
     description:
       "A web-based travel booking platform with user and admin functionalities.",
     tech: "Java, MySQL",
-    github: "https://github.com/your-repo",
+    github: "https://github.com/",
     demo: "#",
   },
 ];
