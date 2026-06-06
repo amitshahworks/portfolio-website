@@ -4,7 +4,7 @@ function Projects() {
     title: "AI Interview Trainer",
     description:
       "An AI-powered platform that simulates technical and HR interviews and provides feedback.",
-    tech: "React, Node.js, MongoDB, OpenAI",
+    tech: "React, TypeScript, MongoDB, OpenAI",
     github: "https://github.com/amitshahworks/AI-Interview-Copilot-2.0",
     demo: "#",
   },
